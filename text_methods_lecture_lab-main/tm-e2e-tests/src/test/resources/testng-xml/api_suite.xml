@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="API Tests" annotations="JDK" parallel="tests">
+    <test name="AuthTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.AuthTest" />
+        </classes>
+    </test>
+    <test name="CreateCustomerAdminLoginNameTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.CreateCustomerAdminLoginNameTest" />
+        </classes>
+    </test>
+    <test name="CreateCustomerRequestCapitalLettersNameTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.CreateCustomerRequestCapitalLettersNameTest" />
+        </classes>
+    </test>
+    <test name="CreateCustomerRequestCommonPasswordTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.CreateCustomerRequestCommonPasswordTest" />
+        </classes>
+    </test>
+    <test name="CreateCustomerRequestNameWithSpacesTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.CreateCustomerRequestNameWithSpacesTest" />
+        </classes>
+    </test>
+    <test name="CreateCustomerRequestFirstNameTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.CreateCustomerRequestFirstNameTest" />
+        </classes>
+    </test>
+    <test name="CreateCustomerRequestLongNameTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.CreateCustomerRequestLongNameTest" />
+        </classes>
+    </test>
+    <test name="CreateCustomerRequestLongPasswordTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.CreateCustomerRequestLongPasswordTest" />
+        </classes>
+    </test>
+    <test name="CreateCustomerRequestShortPasswordTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.CreateCustomerRequestShortPasswordTest" />
+        </classes>
+    </test>
+    <test name="CreateCustomerRequestShortNameTest">
+        <classes>
+            <class name="org.nsu.fit.tests.api.CreateCustomerRequestShortPasswordTest" />
+        </classes>
+    </test>
+</suite>
